@@ -3,6 +3,7 @@ import WeekInfoCardComponents from './WeekInfoCard';
 import ChooseStateComponents from './ChooseState';
 import HumidityComponents from './HUMIDITY';
 import LeftComponents from './Left';
+import Footer from './Footer';
 const HomeComponents = ()=>{   
     return (
         <>
@@ -13,6 +14,7 @@ const HomeComponents = ()=>{
                         <ChooseStateComponents />
                         <WeekInfoCardComponents />
                         <HumidityComponents />
+                        <Footer/>
                     </div>
                 </div>
             </div>
